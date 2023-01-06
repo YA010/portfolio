@@ -24,6 +24,7 @@ function Content() {
           key= "dark"
           text= "white"
           id="cards"
+          
           className="mb-2"
          
         >
@@ -51,14 +52,33 @@ function Content() {
           <Card.Body>
             <Card.Title  >Full Stack social media app</Card.Title>
             <Card.Text>
-            Built a social media app following solidsails course alowing users a vast array of functionality.
+            Built a social media app  alowing users a vast array of functionality.
             </Card.Text>
             <Button href="https://newz-c60cc.web.app/news">View app</Button> <Button href="https://github.com/YA010/Newzy">Github link</Button>
           </Card.Body>
           
         </Card>
+        <Card
+          bg="dark"
+          key= "dark"
+          text= "white"
+        id="cards"
+          className="mb-2"
+         
+        >
+          <Card.Header>Deveoping with Html, Css , Js, Firebase , Ionic and React</Card.Header>
+          <Card.Body>
+            <Card.Title  >Reactjs web app</Card.Title>
+            <Card.Text>
+            Building a reactjs app alowing users to search/book flights / hotels and interact with other users
+            </Card.Text>
+            <Button href="https://mimco.netlify.app/">View app</Button> <h4>Project is under development and uses sensitive data so github has been privated</h4>
+          </Card.Body>
+          
+        </Card>
       
         </Container>
+        
         </>
     )
 }
